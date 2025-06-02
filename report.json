@@ -173,18 +173,11 @@
         "message_pt": "A Vercel oferece múltiplos canais para denúncias de phishing ou abusos. Utilize preferencialmente o formulário oficial.",
         "message_en": "Vercel provides multiple channels for reporting phishing or abuse. Preferably use the official form."
     },
-    "certbr": {
-        "type": "multiple",
-        "contacts": [
-            {
-                "type": "email",
-                "contact": "mail-abuse@cert.br",
-                "description_pt": "E-mail oficial do CERT.br para denúncias de abuso, incluindo phishing.",
-                "description_en": "Official CERT.br email for abuse reports, including phishing."
-            }
-        ],
-        "message_pt": "Envie denúncias de phishing e outros abusos para o e-mail oficial do CERT.br:",
-        "message_en": "Send phishing and other abuse reports to the official CERT.br email:"
+    "cert.br": {
+        "type": "email",
+        "contact": "mail-abuse@cert.br",
+        "message_pt": "Envie a denúncia para o e-mail:",
+        "message_en": "Send the report to the email:"
     },
     "netlify": {
         "type": "email",
