@@ -381,5 +381,24 @@
         ],
         "message_pt": "A WebNic.cc oferece múltiplos canais para denúncias de abuso. Utilize o e-mail de compliance para relatar atividades suspeitas ou abusivas. Para outras questões, entre em contato com o suporte geral.",
         "message_en": "WebNic.cc provides multiple channels for reporting abuse. Use the compliance email to report suspicious or abusive activities. For other matters, contact general support."
+    },
+    "webnode": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "email",
+                "contact": "abuse@webnode.com",
+                "description_pt": "E-mail oficial para denúncias de abuso, como phishing, spam, conteúdo ilegal ou violações dos Termos e Condições da Webnode.",
+                "description_en": "Official email for reporting abuse, such as phishing, spam, illegal content, or violations of Webnode's Terms and Conditions."
+            },
+            {
+                "type": "form",
+                "contact": "https://www.webnode.com/contact-form/",
+                "description_pt": "Formulário de contato para relatar abusos ou problemas relacionados a sites hospedados pela Webnode.",
+                "description_en": "Contact form to report abuse or issues related to websites hosted by Webnode."
+            }
+        ],
+        "message_pt": "A Webnode oferece múltiplos canais para denúncias de abuso. Utilize o e-mail ou o formulário online para relatar atividades suspeitas.",
+        "message_en": "Webnode provides multiple channels for reporting abuse. Use the email or online form to report suspicious activities."
     }
 }
