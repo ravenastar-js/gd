@@ -130,12 +130,6 @@
         "message_pt": "Envie a denúncia para o e-mail:",
         "message_en": "Send the report to the email:"
     },
-    "hostgator": {
-        "type": "email",
-        "contact": "abuse@hostgator.com",
-        "message_pt": "Envie a denúncia para o e-mail:",
-        "message_en": "Send the report to the email:"
-    },
     "bluehost": {
         "type": "email",
         "contact": "abuse@bluehost.com",
@@ -274,5 +268,118 @@
         "contact": "abuse@webhostingbuzz.com",
         "message_pt": "Envie a denúncia para o e-mail:",
         "message_en": "Send the report to the email:"
+    },
+    "linode": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "form",
+                "contact": "https://www.linode.com/legal-abuse/",
+                "description_pt": "Formulário oficial para denúncias de abuso, incluindo phishing, malware, spam e violações da política de uso aceitável.",
+                "description_en": "Official form for reporting abuse, including phishing, malware, spam, and acceptable use policy violations."
+            },
+            {
+                "type": "email",
+                "contact": "abuse@linode.com",
+                "description_pt": "Canal de e-mail para envio de denúncias diretamente.",
+                "description_en": "Email channel for direct abuse reports."
+            }
+        ],
+        "message_pt": "A Linode oferece formulário e e-mail para envio de denúncias:",
+        "message_en": "Linode provides both a form and email for submitting reports:"
+    },
+    "alibaba cloud": {
+        "type": "form",
+        "contact": "https://www.alibabacloud.com/report",
+        "message_pt": "Utilize o formulário online para relatar conteúdos maliciosos ou abusos na Alibaba Cloud:",
+        "message_en": "Use the online form to report malicious content or abuse on Alibaba Cloud:"
+    },
+    "weebly": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "form",
+                "contact": "https://secure.weebly.com/abuse",
+                "description_pt": "Formulário de denúncia de abusos e violações nos sites hospedados pela Weebly.",
+                "description_en": "Form to report abuse and policy violations on sites hosted by Weebly."
+            },
+            {
+                "type": "email",
+                "contact": "weebly-abuse@squareup.com",
+                "description_pt": "E-mail de contato para denúncias de abuso ou phishing.",
+                "description_en": "Email contact for reporting abuse or phishing."
+            }
+        ],
+        "message_pt": "A Weebly (Square) oferece múltiplos canais para denúncias de abuso:",
+        "message_en": "Weebly (Square) provides multiple channels for reporting abuse:"
+    },
+    "squarespace": {
+        "type": "form",
+        "contact": "https://support.squarespace.com/hc/en-us/requests/new",
+        "message_pt": "Utilize o formulário oficial para relatar abuso ou conteúdo inadequado em sites hospedados pela Squarespace:",
+        "message_en": "Use the official form to report abuse or inappropriate content on Squarespace-hosted websites:"
+    },
+    "shopify": {
+        "type": "email",
+        "contact": "phishing@shopify.com",
+        "message_pt": "Envie denúncias de phishing relacionadas à Shopify para o e-mail:",
+        "message_en": "Send phishing reports related to Shopify to the email:"
+    },
+    "hostgator": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "email",
+                "contact": "abuse@hostgator.com",
+                "description_pt": "E-mail oficial para denúncias de abuso, como phishing, spam, malware ou violação de direitos autorais.",
+                "description_en": "Official email for reporting abuse, such as phishing, spam, malware, or copyright infringement."
+            },
+            {
+                "type": "form",
+                "contact": "https://www.hostgator.com.br/denuncia",
+                "description_pt": "Formulário online para relatar atividades abusivas, incluindo conteúdo ilegal ou ofensivo.",
+                "description_en": "Online form to report abusive activities, including illegal or offensive content."
+            }
+        ],
+        "message_pt": "A HostGator oferece múltiplos canais para denúncias de abuso. Utilize o e-mail ou o formulário online para relatar atividades suspeitas.",
+        "message_en": "HostGator provides multiple channels for reporting abuse. Use the email or online form to report suspicious activities."
+    },
+    "wix": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "email",
+                "contact": "abuse@wix.com",
+                "description_pt": "E-mail oficial para denúncias de abuso, como phishing, spam, conteúdo impróprio ou violações dos Termos de Uso.",
+                "description_en": "Official email for reporting abuse, such as phishing, spam, inappropriate content, or Terms of Use violations."
+            },
+            {
+                "type": "form",
+                "contact": "https://pt.wix.com/upgrade/abuse/spam-report",
+                "description_pt": "Formulário específico para reportar spam ou atividades de phishing em sites Wix.",
+                "description_en": "Specific form to report spam or phishing activities on Wix sites."
+            }
+        ],
+        "message_pt": "O Wix oferece múltiplos canais para denúncias de abuso, incluindo formulários específicos para spam, phishing, infrações de direitos autorais e marcas registradas. Utilize o e-mail ou os formulários online para relatar atividades suspeitas.",
+        "message_en": "Wix provides multiple channels for reporting abuse, including specific forms for spam, phishing, copyright, and trademark infringements. Use the email or online forms to report suspicious activities."
+    },
+    "namebright": {
+        "type": "email",
+        "contact": "support@namebright.com",
+        "message_pt": "Envie denúncias de abuso, como phishing, spam ou malware, para o e-mail:",
+        "message_en": "Send abuse reports, such as phishing, spam, or malware, to the email:"
+    },
+    "webnic": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "email",
+                "contact": "compliance_abuse@webnic.cc",
+                "description_pt": "E-mail oficial para denúncias de abuso, como phishing, spam, malware ou violação de direitos autorais.",
+                "description_en": "Official email for reporting abuse, such as phishing, spam, malware, or copyright infringement."
+            }
+        ],
+        "message_pt": "A WebNic.cc oferece múltiplos canais para denúncias de abuso. Utilize o e-mail de compliance para relatar atividades suspeitas ou abusivas. Para outras questões, entre em contato com o suporte geral.",
+        "message_en": "WebNic.cc provides multiple channels for reporting abuse. Use the compliance email to report suspicious or abusive activities. For other matters, contact general support."
     }
 }
