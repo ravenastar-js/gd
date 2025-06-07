@@ -400,5 +400,24 @@
         ],
         "message_pt": "A Webnode oferece múltiplos canais para denúncias de abuso. Utilize o e-mail ou o formulário online para relatar atividades suspeitas.",
         "message_en": "Webnode provides multiple channels for reporting abuse. Use the email or online form to report suspicious activities."
+    },
+    "tucows": {
+        "type": "multiple",
+        "contacts": [
+            {
+                "type": "email",
+                "contact": "domainabuse@tucows.com",
+                "description_pt": "E-mail de denúncia",
+                "description_en": "Report email"
+            },
+            {
+                "type": "form",
+                "contact": "https://tucowsdomains.com/abuse-form/phishing/",
+                "description_pt": "Formulário de denúncia",
+                "description_en": "Report form"
+            }
+        ],
+        "message_pt": "A Tucows Domains Inc oferece múltiplos canais para denúncias:",
+        "message_en": "Tucows Domains Inc provides multiple reporting channels:"
     }
 }
