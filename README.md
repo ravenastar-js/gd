@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> Esta ferramenta utiliza apenas dados institucionais, empresariais e similares, relacionados a pessoas jurídicas. Não há tratamento ou exposição de dados pessoais de pessoas físicas. As informações são obtidas de fontes abertas e legítimas, com uso estritamente educacional e técnico.
+
+---
+
 > [!WARNING]  
 > **NÃO ACEITAMOS DENÚNCIAS.**
 >
