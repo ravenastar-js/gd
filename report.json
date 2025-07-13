@@ -1,4 +1,10 @@
 {
+   "noad":{
+      "type":"email",
+      "contact":"nucleo.noad@sp.gov.br",
+      "message_pt":"E-mail do Núcleo de Observação e Análise Digital (NOAD) para denúnciar crimes virtuais contra crianças e adolescentes:",
+      "message_en":"Digital Observation and Analysis Center (NOAD) email to report virtual crimes against children and adolescents:"
+   },
    "cloudflare":{
       "type":"multiple",
       "contacts":[
