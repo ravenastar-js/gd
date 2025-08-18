@@ -6,7 +6,7 @@
 > [!WARNING]  
 > **NÃO ACEITAMOS DENÚNCIAS.**
 >
-> Nosso foco é receber a sua colaboração para atualizar e ampliar nossa lista com novos contatos úteis para denúncias de phishing envolvendo registradores e serviços de hospedagem que ainda não estejam incluídos.
+> Nosso foco é receber sua colaboração para atualizar e ampliar nossa lista com novos contatos úteis para denúncias, exclusivamente de casos de phishing envolvendo registradores e serviços de hospedagem que ainda não estejam incluídos.
 >
 > Esta ferramenta não funciona como um canal oficial de denúncia ou fórum de reclamações. Ela foi criada como um recurso prático, um "quebra-galho", para ajudar você a encaminhar denúncias de phishing de forma mais eficiente.
 ---
