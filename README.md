@@ -38,7 +38,6 @@ Fornecer acesso rápido aos canais oficiais de denúncia de phishing de empresas
 
 ## 🛠️ Destaques Técnicos
 
-- 🚀 Aplicação de página única (SPA)
 - 📁 Estrutura de dados baseada em JSON
 - 🤝 Aceita contribuições da comunidade
 
