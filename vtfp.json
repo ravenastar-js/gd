@@ -7,7 +7,10 @@
     },
     "Abusix": {
       "type": "multiple",
-      "contacts": ["support@abusix.com"]
+      "contacts": [
+        {"type": "email", "contact": "support@abusix.com"},
+        {"type": "form", "contact": "https://lookup.abusix.com/"}
+      ]
     },
     "Acronis": {
       "type": "email",
@@ -15,7 +18,11 @@
     },
     "ADMINUSLabs": {
       "type": "multiple",
-      "contacts": ["info@adminuslabs.net", "samples@adminus.net", "falsepositive@adminuslabs.net"]
+      "contacts": [
+        {"type": "email", "contact": "info@adminuslabs.net"},
+        {"type": "email", "contact": "samples@adminus.net"},
+        {"type": "email", "contact": "falsepositive@adminuslabs.net"}
+      ]
     },
     "AegisLab": {
       "type": "email",
@@ -23,7 +30,10 @@
     },
     "Ahnlab": {
       "type": "multiple",
-      "contacts": ["e-support@ahnlab.com", "samples@ahnlab.com"]
+      "contacts": [
+        {"type": "email", "contact": "e-support@ahnlab.com"},
+        {"type": "email", "contact": "samples@ahnlab.com"}
+      ]
     },
     "AILabs (Monitorapp)": {
       "type": "email",
@@ -53,6 +63,10 @@
       "type": "email",
       "contacts": ["esrc@estsecurity.com"]
     },
+    "Antivir (Avira)": {
+      "type": "form",
+      "contacts": ["https://www.avira.com/en/analysis/submit-url"]
+    },
     "Antiy": {
       "type": "email",
       "contacts": ["avlsdk_support@antiy.cn"]
@@ -73,17 +87,34 @@
       "type": "email",
       "contacts": ["DL-Virus@gendigital.com"]
     },
+    "AVG": {
+      "type": "multiple",
+      "contacts": [
+        {"type": "form", "contact": "http://www.avg.com/submit-sample"},
+        {"type": "form", "contact": "http://www.avg.com/us-en/whitelist"}
+      ]
+    },
     "Baidu": {
       "type": "multiple",
-      "contacts": ["bav@baidu.com", "gaoyingchun@baidu.com"]
+      "contacts": [
+        {"type": "email", "contact": "bav@baidu.com"},
+        {"type": "email", "contact": "gaoyingchun@baidu.com"}
+      ]
     },
     "BitDefender": {
       "type": "email",
       "contacts": ["virus_submission@bitdefender.com"]
     },
+    "BforeAi": {
+      "type": "form",
+      "contacts": ["https://bfore.ai/support"]
+    },
     "Bkav": {
       "type": "multiple",
-      "contacts": ["fpreport@bkav.com", "bkav@bkav.com"]
+      "contacts": [
+        {"type": "email", "contact": "fpreport@bkav.com"},
+        {"type": "email", "contact": "bkav@bkav.com"}
+      ]
     },
     "Certego": {
       "type": "email",
@@ -97,6 +128,14 @@
       "type": "email",
       "contacts": ["info@chongluadao.vn"]
     },
+    "CINS Army (Sentinel IPS)": {
+      "type": "form",
+      "contacts": ["http://cinsscore.com/#contact"]
+    },
+    "ClamAV": {
+      "type": "form",
+      "contacts": ["http://www.clamav.net/reports/fp"]
+    },
     "Clean-MX": {
       "type": "email",
       "contacts": ["abuse@clean-mx.de"]
@@ -108,6 +147,10 @@
     "CMC": {
       "type": "email",
       "contacts": ["PSIRT@cmccybersecurity.com"]
+    },
+    "CRDF": {
+      "type": "form",
+      "contacts": ["https://threatcenter.crdf.fr/false_positive.html"]
     },
     "Criminal IP (AI Spera)": {
       "type": "email",
@@ -159,15 +202,33 @@
     },
     "eGambit (Tehtris)": {
       "type": "multiple",
-      "contacts": ["virus@tehtris.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://tehtris.com/egambit_fp.php"},
+        {"type": "email", "contact": "virus@tehtris.com"}
+      ]
+    },
+    "Elastic": {
+      "type": "multiple",
+      "contacts": [
+        {"type": "form", "contact": "https://docs.google.com/forms/d/e/1FAIpQLSfKZOPSPcucmgNR9_j316JnG_qYbJBpti5JSsNxQNQtTHjsxw/viewform"},
+        {"type": "form", "contact": "https://discuss.elastic.co/t/submitting-false-positives/232322"}
+      ]
     },
     "Emsisoft": {
       "type": "multiple",
-      "contacts": ["submit@emsisoft.com", "fp@emsisoft.com"]
+      "contacts": [
+        {"type": "email", "contact": "submit@emsisoft.com"},
+        {"type": "email", "contact": "fp@emsisoft.com"},
+        {"type": "form", "contact": "https://www.emsisoft.com/en/support/contact/"}
+      ]
     },
     "Ermes": {
       "type": "email",
       "contacts": ["support-vt@ermes.company"]
+    },
+    "ESET": {
+      "type": "form",
+      "contacts": ["https://support.eset.com/kb141/?page=content&id=SOLN141"]
     },
     "FireEye": {
       "type": "email",
@@ -177,13 +238,37 @@
       "type": "email",
       "contacts": ["viruslab@f-prot.com"]
     },
+    "F-Secure/WithSecure": {
+      "type": "form",
+      "contacts": ["https://www.withsecure.com/en/support/contact-support/submit-a-sample"]
+    },
     "Forcepoint ThreatSeeker": {
       "type": "email",
       "contacts": ["reviewmysite@forcepoint.com"]
     },
+    "Fortinet": {
+      "type": "multiple",
+      "contacts": [
+        {"type": "form", "contact": "https://www.fortiguard.com/faq/classificationdispute"},
+        {"type": "form", "contact": "http://www.fortinet.com/support/contact_support.html"},
+        {"type": "form", "contact": "https://www.fortiguard.com/faq/malurl"}
+      ]
+    },
+    "GData": {
+      "type": "form",
+      "contacts": ["https://www.gdata.de/help/en/general/GeneralInformation/submitFileAppURL/"]
+    },
     "Google (File Scanner)": {
       "type": "email",
       "contacts": ["google-at-virustotal@google.com"]
+    },
+    "Google Safe Browsing (URL/Netloc Scanner) / Web Risk": {
+      "type": "form",
+      "contacts": ["https://safebrowsing.google.com/safebrowsing/report_error/?hl=en"]
+    },
+    "GreenSnow": {
+      "type": "form",
+      "contacts": ["https://greensnow.co/contact"]
     },
     "Gridinsoft": {
       "type": "email",
@@ -221,13 +306,23 @@
       "type": "email",
       "contacts": ["virus_info@inca.co.kr"]
     },
+    "IPsum": {
+      "type": "form",
+      "contacts": ["https://github.com/stamparm/ipsum"]
+    },
     "Jiangmin": {
       "type": "multiple",
-      "contacts": ["support@jiangmin.com", "shaojia@jiangmin.com"]
+      "contacts": [
+        {"type": "email", "contact": "support@jiangmin.com"},
+        {"type": "email", "contact": "shaojia@jiangmin.com"}
+      ]
     },
     "K7": {
       "type": "multiple",
-      "contacts": ["reportfp@labs.k7computing.com", "k7viruslab@labs.k7computing.com"]
+      "contacts": [
+        {"type": "email", "contact": "reportfp@labs.k7computing.com"},
+        {"type": "email", "contact": "k7viruslab@labs.k7computing.com"}
+      ]
     },
     "Kaspersky": {
       "type": "email",
@@ -239,7 +334,10 @@
     },
     "Lionic": {
       "type": "multiple",
-      "contacts": ["support@lionic.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://www.lionic.com/reportfp/"},
+        {"type": "email", "contact": "support@lionic.com"}
+      ]
     },
     "Lumu": {
       "type": "email",
@@ -248,6 +346,10 @@
     "Malbeacon": {
       "type": "email",
       "contacts": ["vtreport@malbeacon.com"]
+    },
+    "Malwarebytes": {
+      "type": "form",
+      "contacts": ["https://forums.malwarebytes.com/forum/122-false-positives/"]
     },
     "Malwares.com (Saint Security)": {
       "type": "email",
@@ -267,11 +369,18 @@
     },
     "McAfee": {
       "type": "multiple",
-      "contacts": ["virus_research@mcafee.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://www.mcafee.com/support/s/article/000001921?language=en_US"},
+        {"type": "email", "contact": "virus_research@mcafee.com"}
+      ]
     },
     "Skyhigh": {
       "type": "email",
       "contacts": ["GatewayAnti-Malware-SupportEscalations@SkyhighSecurity.com"]
+    },
+    "Microsoft": {
+      "type": "form",
+      "contacts": ["https://www.microsoft.com/en-us/wdsi/filesubmission"]
     },
     "Microworld": {
       "type": "email",
@@ -279,7 +388,14 @@
     },
     "NANO": {
       "type": "multiple",
-      "contacts": ["false@nanoav.ru"]
+      "contacts": [
+        {"type": "form", "contact": "http://www.nanoav.ru/index.php?option=com_content&view=article&id=15&Itemid=83&lang=en"},
+        {"type": "email", "contact": "false@nanoav.ru"}
+      ]
+    },
+    "Netcraft": {
+      "type": "form",
+      "contacts": ["https://report.netcraft.com/report/mistake"]
     },
     "Inca (previous nProtect)": {
       "type": "email",
@@ -287,15 +403,29 @@
     },
     "Palo Alto": {
       "type": "multiple",
-      "contacts": ["vt-pan-false-positive@paloaltonetworks.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://live.paloaltonetworks.com/t5/virustotal/bd-p/VirusTotal_Discussions"},
+        {"type": "email", "contact": "vt-pan-false-positive@paloaltonetworks.com"}
+      ]
     },
     "Panda": {
       "type": "multiple",
-      "contacts": ["falsepositives@pandasecurity.com", "virussamples@pandasecurity.com"]
+      "contacts": [
+        {"type": "email", "contact": "falsepositives@pandasecurity.com"},
+        {"type": "email", "contact": "virussamples@pandasecurity.com"}
+      ]
+    },
+    "Phishing Database": {
+      "type": "form",
+      "contacts": ["https://github.com/Phishing-Database/Phishing.Database#reporting-issues"]
     },
     "PhishLabs": {
       "type": "email",
       "contacts": ["info@phishlabs.com"]
+    },
+    "Prebytes": {
+      "type": "form",
+      "contacts": ["https://www.support.prebytes.com/helpcenter/removals/"]
     },
     "Qihoo360": {
       "type": "email",
@@ -325,6 +455,14 @@
       "type": "email",
       "contacts": ["virustotal@sangfor.com.cn"]
     },
+    "Scumware.org": {
+      "type": "form",
+      "contacts": ["https://www.scumware.org/removals.php"]
+    },
+    "SecureAge": {
+      "type": "form",
+      "contacts": ["https://www.secureaplus.com/features/antivirus/report-false-positive/"]
+    },
     "Seclookup": {
       "type": "email",
       "contacts": ["info@seclookup.com"]
@@ -347,11 +485,25 @@
     },
     "Sophos": {
       "type": "multiple",
-      "contacts": ["samples@sophos.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://support.sophos.com/"},
+        {"type": "email", "contact": "samples@sophos.com"}
+      ]
+    },
+    "Spamhaus": {
+      "type": "form",
+      "contacts": ["https://www.spamhaus.org/dbl/removal/form/"]
     },
     "Sucuri": {
       "type": "email",
       "contacts": ["soc@sucuri.net"]
+    },
+    "Symantec": {
+      "type": "multiple",
+      "contacts": [
+        {"type": "form", "contact": "https://symsubmit.symantec.com/submit/false_positive"},
+        {"type": "form", "contact": "https://knowledge.broadcom.com/external/article/173729/how-to-submit-false-positives-on-content.html"}
+      ]
     },
     "Tencent": {
       "type": "email",
@@ -359,7 +511,10 @@
     },
     "TheHacker": {
       "type": "multiple",
-      "contacts": ["virus@hacksoft.com.pe", "falsopositivo@hacksoft.com.pe"]
+      "contacts": [
+        {"type": "email", "contact": "virus@hacksoft.com.pe"},
+        {"type": "email", "contact": "falsopositivo@hacksoft.com.pe"}
+      ]
     },
     "ThreatHive": {
       "type": "email",
@@ -375,7 +530,15 @@
     },
     "TrendMicro": {
       "type": "multiple",
-      "contacts": ["virus@trendmicro.com", "virus_doctor@trendmicro.com"]
+      "contacts": [
+        {"type": "form", "contact": "https://www.trendmicro.com/en_us/about/legal/detection-reevaluation.html"},
+        {"type": "email", "contact": "virus@trendmicro.com"},
+        {"type": "email", "contact": "virus_doctor@trendmicro.com"}
+      ]
+    },
+    "Trustwave": {
+      "type": "form",
+      "contacts": ["https://support.trustwave.com/virustotal-detection-review/"]
     },
     "Trustlook": {
       "type": "email",
@@ -391,7 +554,10 @@
     },
     "Varist": {
       "type": "multiple",
-      "contacts": ["support@varist.com", "virus@avsubmit.com"]
+      "contacts": [
+        {"type": "email", "contact": "support@varist.com"},
+        {"type": "email", "contact": "virus@avsubmit.com"}
+      ]
     },
     "VBA32": {
       "type": "email",
@@ -413,9 +579,16 @@
       "type": "email",
       "contacts": ["partners@virusdie.com"]
     },
+    "Webroot": {
+      "type": "form",
+      "contacts": ["https://www.webroot.com/us/en/business/support/vendor-dispute-contact-us"]
+    },
     "WithSecure/F-Secure": {
       "type": "multiple",
-      "contacts": ["spyware-samples@f-secure.com", "vsamples@f-secure.com"]
+      "contacts": [
+        {"type": "email", "contact": "spyware-samples@f-secure.com"},
+        {"type": "email", "contact": "vsamples@f-secure.com"}
+      ]
     },
     "Xcitium Verdict Cloud (Comodo)": {
       "type": "email",
