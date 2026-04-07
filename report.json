@@ -406,6 +406,12 @@
         "message_pt": "Envie denúncias de abuso, como phishing, spam ou malware, para o e-mail:",
         "message_en": "Send abuse reports, such as phishing, spam, or malware, to the email:"
     },
+    "lovable": {
+        "type": "email",
+        "contact": "abuse@lovable.dev",
+        "message_pt": "Envie denúncias de abuso, como phishing, spam ou malware, para o e-mail:",
+        "message_en": "Send abuse reports, such as phishing, spam, or malware, to the email:"
+    },
     "webnic": {
         "type": "multiple",
         "contacts": [
