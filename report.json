@@ -331,6 +331,12 @@
         "message_pt": "Utilize o formulário online para relatar conteúdos maliciosos ou abusos na Alibaba Cloud:",
         "message_en": "Use the online form to report malicious content or abuse on Alibaba Cloud:"
     },
+    "dynadot": {
+        "type": "form",
+        "contact": "https://www.dynadot.com/report-abuse",
+        "message_pt": "Utilize o formulário online:",
+        "message_en": "Please use the online form:"
+    },
     "weebly": {
         "type": "multiple",
         "contacts": [
